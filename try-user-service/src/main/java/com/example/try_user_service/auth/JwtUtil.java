@@ -22,7 +22,7 @@ public class JwtUtil {
     public String generateToken(String username){
         long now = System.currentTimeMillis();
         return Jwts.builder().subject(username)
-                .issuedAt(new Date(now)).expiration(new Date(now + 1000 * 60 * 60 * 10))
+                .issuedAt(new Date(now)).expiration(new Date(now +60000000))
                 .signWith(getKey()).compact();
     }
 
