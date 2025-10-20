@@ -1,0 +1,9 @@
+package com.example.auth_service.auth;
+
+import lombok.Data;
+
+@Data
+public class Request {
+    private String username;
+    private String password;
+}
