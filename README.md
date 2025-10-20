@@ -4,7 +4,7 @@
 **auth-service (Port 8080)**
 
 ## Prerequisites:
-- Java 21 JDK (or higher)
+- Java 17 JDK (or higher)
 - Apache Maven 3.6+
 - A running MySQL instance (XAMPP's MySQL)
 
