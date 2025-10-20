@@ -55,7 +55,7 @@ Use the copied jwt string from Step 2 to access a secure endpoint on the user-se
 Method: GET\
 URL: http://localhost:8081/api/users/1 
 
-Authorization Tab:\
+**Authorization Tab:**\
 Type: Bearer Token\
 Token: Paste the JWT you copied here
 
@@ -64,7 +64,7 @@ Use the copied jwt string from Step 2 to access a secure endpoint on the user-se
 Method: PUT\
 URL: http://localhost:8081/api/users/1 
 
-Authorization Tab:\
+**Authorization Tab:**\
 Type: Bearer Token\
 Token: Paste the JWT you copied here
 
